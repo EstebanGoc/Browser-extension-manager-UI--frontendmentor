@@ -1,0 +1,42 @@
+.sort-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-container .sort-container-button {
+  display: flex;
+}
+
+.button-active,
+.button-active-dark,
+.button-inactive,
+.button-inactive-dark {
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.button-active {
+  background-color: hsl(3, 77%, 44%);
+  color: white;
+}
+
+.button-active-dark {
+  background-color: hsl(3, 86%, 64%);
+  color: white;
+}
+
+.button-inactive {
+  background-color: hsl(0, 0%, 93%);
+  color: black;
+}
+
+.button-inactive-dark {
+  background-color: hsl(0, 0%, 30%);
+  color: white;
+}
