@@ -1,0 +1,70 @@
+.container,
+.container-dark-mode {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 0 10px;
+  height: 50px;
+  align-items: center;
+  background-color: white;
+}
+
+.container {
+  border-color: hsl(0, 0%, 78%);
+}
+
+.container-dark-mode {
+  border-color: hsl(225, 23%, 24%);
+  background-color:hsl(225, 23%, 24%);
+}
+
+.container-icon-extension,
+.container-icon-extension-dark-mode {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-icon-extension {
+  background-color: white;
+}
+
+.container-icon-extension-dark-mode {
+  background-color:hsl(225, 23%, 24%);
+}
+
+.search-field {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: inherit;
+}
+
+.logo-image {
+  height: 30px;
+  width: 100px;
+  transition: filter 0.3s;
+}
+.container-dark-mode .logo-image {
+  filter: brightness(0) invert(1);
+}
+
+.moon-image,
+.sun-image {
+  padding: 10px;
+  border-radius: 10px;
+  height: 15px;
+  width: 15px;
+}
+
+.moon-image {
+  background-color: hsl(0, 0%, 93%);
+}
+
+.sun-image {
+  background-color:hsl(226, 11%, 37%);
+}

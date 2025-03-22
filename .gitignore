@@ -1,0 +1,45 @@
+### Node Modules ###
+node_modules/
+
+### Build Folders ###
+build/
+dist/
+
+### Logs ###
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Dependency Directories ###
+/.pnp
+.pnp.js
+
+### Testing ###
+coverage/
+
+### Production ###
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### Editor Directories ###
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+### System Files ###
+Thumbs.db
+Desktop.ini
+
+### React Cache ###
+.cache/
+
+### Mac System Files ###
+.DS_Store
+
+### Misc ###
+.eslintcache
