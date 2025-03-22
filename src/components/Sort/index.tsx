@@ -17,6 +17,7 @@ const Sort: React.FC<SortProps> = ({ sort, setSort, isDarkMode }) => {
         return isDarkMode ? 'button-inactive-dark' : 'button-inactive';
     };
 
+
     const getFontStyle = (buttonType: typeSort) => ({
         fontFamily: 'NotoSans',
         fontWeight: sort === buttonType ? 'bold' : 500
@@ -24,7 +25,7 @@ const Sort: React.FC<SortProps> = ({ sort, setSort, isDarkMode }) => {
 
     return (
         <div className='sort-container'>
-            <h1>Extensions List</h1>
+            <h1 className={isDarkMode ? 'sort-container-title-dark-mode' : 'sort-container-title'}>Extensions List</h1>
             <div className='sort-container-button'>
                 <div
                     className={getButtonClass(typeSort.All)}

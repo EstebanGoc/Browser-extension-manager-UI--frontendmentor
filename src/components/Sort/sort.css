@@ -7,6 +7,16 @@
 .sort-container .sort-container-button {
   display: flex;
 }
+.sort-container .sort-container-title{
+  color:black;
+  font-family:'NotoSans-Medium';
+  font-size: 25px;  
+}
+.sort-container .sort-container-title-dark-mode{
+  color:white;
+  font-family:'NotoSans-Medium';
+  font-size: 25px;  
+}
 
 .button-active,
 .button-active-dark,
